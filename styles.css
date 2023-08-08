@@ -21,7 +21,8 @@
     justify-content: center;
     width: 60px;
     height:60px;
-    border-radius: 30px;}
+    border-radius: 30px;
+    object-fit: cover;}
 
 
 .right-side {
@@ -30,7 +31,7 @@
     flex:1;
     Min-width: 300px;
     align-items: flex-start;
-    gap: 40px;}
+    gap: 60px;}
 
 .profile-info {
     display: flex;
@@ -58,10 +59,14 @@
     margin-top:12px;
     width: 100px;
     height:40px;
-    border-radius: 8px;
-    background-color: #0d9ef9c6;
-    border-color:#0d9ef9c6;
+    border-radius: 4px;
+    background-color: hsl(203, 69%, 51%);
+    border-color:hsl(203, 69%, 51%);
+    outline:none;
     color: white;
     font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;}
     font-weight: bold;
     text-align: center;}
